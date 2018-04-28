@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF5D9DD2095055100159686 /* Encodeable+AlamorfireParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5D9DC2095055100159686 /* Encodeable+AlamorfireParameters.swift */; };
+		2BF5D9E8209509F400159686 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5D9E62095076200159686 /* EncodableTests.swift */; };
+		2BF5D9E9209509F500159686 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5D9E62095076200159686 /* EncodableTests.swift */; };
+		2BF5D9EA209509F500159686 /* EncodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5D9E62095076200159686 /* EncodableTests.swift */; };
 		8447D5D91F77D5EE003B32F3 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D5D21F77D5BC003B32F3 /* MainTests.swift */; };
 		8447D5DA1F77D5EE003B32F3 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D5D21F77D5BC003B32F3 /* MainTests.swift */; };
 		8447D5DB1F77D5EF003B32F3 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D5D21F77D5BC003B32F3 /* MainTests.swift */; };
@@ -105,6 +109,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BF5D9DC2095055100159686 /* Encodeable+AlamorfireParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodeable+AlamorfireParameters.swift"; sourceTree = "<group>"; };
+		2BF5D9E62095076200159686 /* EncodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableTests.swift; sourceTree = "<group>"; };
 		8447D5C81F77D4AE003B32F3 /* DataRequest+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DataRequest+Decodable.swift"; path = "CodableAlamofire/DataRequest+Decodable.swift"; sourceTree = "<group>"; };
 		8447D5C91F77D4AE003B32F3 /* AlamofireDecodableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlamofireDecodableError.swift; path = CodableAlamofire/AlamofireDecodableError.swift; sourceTree = "<group>"; };
 		8447D5CA1F77D54E003B32F3 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
@@ -200,6 +206,7 @@
 			children = (
 				8447D5CA1F77D54E003B32F3 /* LinuxMain.swift */,
 				8447D5D21F77D5BC003B32F3 /* MainTests.swift */,
+				2BF5D9E62095076200159686 /* EncodableTests.swift */,
 				8447D5D31F77D5E2003B32F3 /* Supporting Files */,
 			);
 			path = Tests;
@@ -261,6 +268,7 @@
 			children = (
 				8447D5C91F77D4AE003B32F3 /* AlamofireDecodableError.swift */,
 				8447D5C81F77D4AE003B32F3 /* DataRequest+Decodable.swift */,
+				2BF5D9DC2095055100159686 /* Encodeable+AlamorfireParameters.swift */,
 				84A8C84C1EED2F0C00AB31BE /* Supporting Files */,
 			);
 			path = Sources;
@@ -620,6 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8447D5D91F77D5EE003B32F3 /* MainTests.swift in Sources */,
+				2BF5D9E8209509F400159686 /* EncodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +637,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8447D5DA1F77D5EE003B32F3 /* MainTests.swift in Sources */,
+				2BF5D9E9209509F500159686 /* EncodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +646,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8447D5DB1F77D5EF003B32F3 /* MainTests.swift in Sources */,
+				2BF5D9EA209509F500159686 /* EncodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +656,7 @@
 			files = (
 				846670281F77D7FE00C119BC /* AlamofireDecodableError.swift in Sources */,
 				846670341F77D80100C119BC /* DataRequest+Decodable.swift in Sources */,
+				2BF5D9DD2095055100159686 /* Encodeable+AlamorfireParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
